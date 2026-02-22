@@ -87,7 +87,6 @@ Generative AI is a quickly evolving technology with new use cases constantly bei
 
 > Sources
 
-- [text](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml)
-- [text](https://en.wikipedia.org/wiki/Supervised_learning)
-
-> Hurricane Models [text](https://storm.aoml.noaa.gov/viewer/)
+- [Google](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml)
+- [Wiki](https://en.wikipedia.org/wiki/Supervised_learning)
+- [Hurricane Models](https://storm.aoml.noaa.gov/viewer/)

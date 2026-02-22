@@ -77,8 +77,10 @@ _How does generative AI work?_ At a high-level, generative models learn patterns
 - Comedians who learn to imitate others by observing people's behaviors and style of speaking
   ![alt text](./images/carvey.png)
 - Artists who learn to paint in a particular style by studying lots of paintings in that style
-  ![alt text](./images/struts.png)
+
 - Cover bands that learn to sound like a specific music group by listening to lots of music by that group
+  <!-- markdownlint-disable-next-line MD033 -->
+    <img alt="struts" src="./images/struts.png" width="25%">
 - To produce unique and creative outputs, generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on. The model is sometimes trained further using supervised or reinforcement learning on specific data related to tasks the model might be asked to perform, for example, summarize an article or edit a photo.
 
 Generative AI is a quickly evolving technology with new use cases constantly being discovered. For example, generative models are helping businesses refine their ecommerce product images by automatically removing distracting backgrounds or improving the quality of low-resolution images.

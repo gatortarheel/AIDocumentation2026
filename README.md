@@ -6,7 +6,7 @@ https://www.deeplearningbook.org/
 
 https://web.mit.edu/18.06/www/
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ## Day One
 

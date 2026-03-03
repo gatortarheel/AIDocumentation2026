@@ -41,6 +41,46 @@ Multiclass classification models output a value from a class that contains more 
 
 Generalization is the concept that humans, other animals, and artificial neural networks use past learning in present situations of learning if the conditions in the situations are regarded as similar. The learner uses generalized patterns, principles, and other similarities between past experiences and novel experiences to more efficiently navigate the world
 
+### Core Concepts
+
+#### Data
+
+    - the driving force of ML
+    - words, numbers, pixels, waveforms
+    - related data --> datasets
+
+##### Datasets
+
+    - Labeled examples include features and a label
+        - example:
+            -   weather model
+                - features: latitude, longitude, temperature, humidity, cloud coverage, wind direction, atmospheric pressure
+                - label: rainfall amount
+    - Unlabeled examples contain features, but no label.  The model *predicts* the label from the features.
+
+    - Datasets are characterized by size and diversity
+        - Size is the number of examples
+        - Diversity is the range of those examples
+    - Datasets can be characterized by the number of features
+        - More features help models discover additional patterns and make better predictions
+        - This is not *always* true, some features may not have a relationship to the label
+
+#### Model
+
+    In supervised learning, the model is the complex collection of numbers that define the mathematical relationship from specific input feature patterns to specific output label values.  The model discovers the patterns through *training*.
+
+#### Training
+
+    The model learns the mathematical relationship between the features and the label so that it can make the best predictions on unseen data.
+
+#### Evaluating
+
+    We evaluate a trained model to determine how well it learned. When we evaluate a model, we use a labeled dataset, but we only give the model the dataset's features. We then compare the model's predictions to the label's true values.
+
+#### Inference
+
+    Once we're satisfied with the results from evaluating the model, we can use the model to make predictions, called inferences, on unlabeled examples. In the weather app example, we would give the model the current weather conditions—like temperature, atmospheric pressure, and relative humidity—and it would predict the amount of rainfall.
+
 ## Unsupervised Learning
 
 An unsupervised learning model aims to identify meaningful patterns in a dataset. For example, many unsupervised learning models rely on a technique called clustering to organize similar data into groups ("clusters").
